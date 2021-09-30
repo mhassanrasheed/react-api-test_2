@@ -32,10 +32,10 @@ const CoinDetail = () => {
 					</Typography>
 					<Typography>
 						<span>
-							<li>Current Price: ${coin.current_price}</li>
-							<li>All time high price: ${coin.ath}</li>
-							<li>Market Cap: ${coin.market_cap}</li>
-							<li>Market Cap Rank: {coin.market_cap_rank}</li>
+							<li>Current Price: ${coin.current_price.toLocaleString()}</li>
+							<li>All time high price: ${coin.ath.toLocaleString()}</li>
+							<li>Market Cap: ${coin.market_cap.toLocaleString()}</li>
+							<li>Market Cap Rank: {coin.market_cap_rank.toLocaleString()}</li>
 						</span>
 					</Typography>
 				</CardContent>

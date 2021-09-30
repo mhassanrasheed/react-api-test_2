@@ -36,9 +36,9 @@ export default function ListCoins({ coins }) {
 						</Typography>
 						<Typography>
 							<span>
-								<li>Current Price: ${coin.current_price}</li>
-								<li>24h High: ${coin.high_24h}</li>
-								<li>24h Low: ${coin.low_24h}</li>
+								<li>Current Price: ${coin.current_price.toLocaleString()}</li>
+								<li>24h High: ${coin.high_24h.toLocaleString()}</li>
+								<li>24h Low: ${coin.low_24h.toLocaleString()}</li>
 							</span>
 						</Typography>
 					</CardContent>
